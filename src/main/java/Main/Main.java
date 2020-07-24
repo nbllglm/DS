@@ -43,6 +43,6 @@ public class Main {
         linkListTwoWay_gz.insert(99, "*");
         linkListTwoWay_gz.remove(2);
         linkListTwoWay_gz.indexOf("D");
-
+        System.out.println("测试");
     }
 }
