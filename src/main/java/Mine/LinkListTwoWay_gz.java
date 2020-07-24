@@ -159,7 +159,6 @@ public class LinkListTwoWay_gz<T> implements Iterable {
             }
         }
         System.out.println(str);
-        System.out.println(str);
         return super.toString();
     }
 
