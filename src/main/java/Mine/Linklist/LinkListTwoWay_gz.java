@@ -1,9 +1,8 @@
-package Mine;
+package Mine.Linklist;
 
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Iterator;
-import java.util.function.Consumer;
 
 public class LinkListTwoWay_gz<T> implements Iterable {
     private Node<T> head;

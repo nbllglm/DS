@@ -1,4 +1,4 @@
-package Mine;
+package Mine.Linklist;
 
 public class Node<T> {
     //ÔªËØ

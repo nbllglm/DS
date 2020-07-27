@@ -1,7 +1,9 @@
 package Main;
 
 
-import Mine.LinkListTwoWay_gz;
+import Mine.Linklist.LinkListTwoWay_gz;
+import Mine.sort.BubbleSort;
+import Mine.sort.SelectSort;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,15 +36,19 @@ public class Main {
 //        System.out.println( linklistGz.toString());
 //        System.out.println(linklistGz.indexOf("C"));asd
 
-        LinkListTwoWay_gz linkListTwoWay_gz = new LinkListTwoWay_gz();
-        linkListTwoWay_gz.add("A");
-        linkListTwoWay_gz.add("C");
-        linkListTwoWay_gz.add("D");
-        linkListTwoWay_gz.insert(1, "B");
-        linkListTwoWay_gz.insert(0, "*");
-        linkListTwoWay_gz.insert(99, "*");
-        linkListTwoWay_gz.remove(2);
-        linkListTwoWay_gz.indexOf("D");
-        System.out.println("测试");
+//        LinkListTwoWay_gz linkListTwoWay_gz = new LinkListTwoWay_gz();
+//        linkListTwoWay_gz.add("A");
+//        linkListTwoWay_gz.add("C");
+//        linkListTwoWay_gz.add("D");
+//        linkListTwoWay_gz.insert(1, "B");
+//        linkListTwoWay_gz.insert(0, "*");
+//        linkListTwoWay_gz.insert(99, "*");
+//        linkListTwoWay_gz.remove(2);
+//        linkListTwoWay_gz.indexOf("D");
+//        System.out.println("测试");
+
+        int[] data = {6, 20, 4, 37, 4, 7, 9, 2};
+        BubbleSort.sort(data);
+        SelectSort.sort(data);
     }
 }

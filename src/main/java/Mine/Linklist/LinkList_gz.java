@@ -1,4 +1,4 @@
-package Mine;
+package Mine.Linklist;
 
 
 import org.jetbrains.annotations.NotNull;
