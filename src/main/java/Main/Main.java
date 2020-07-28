@@ -5,6 +5,7 @@ import Mine.Linklist.LinkListTwoWay_gz;
 import Mine.sort.BubbleSort;
 import Mine.sort.InsertSort;
 import Mine.sort.SelectSort;
+import Mine.sort.ShellSort;
 
 public class Main {
     public static void main(String[] args) {
@@ -48,9 +49,10 @@ public class Main {
 //        linkListTwoWay_gz.indexOf("D");
 //        System.out.println("测试");
 
-        int[] data = {6, 20, 4, 37, 4, 7, 9, 2};
+        int[] data = {6, 20, 4, 37, 4, 7, 9, 2, 1, 8};
         //BubbleSort.sort(data);
         //SelectSort.sort(data);
-        InsertSort.sort(data);
+        //InsertSort.sort(data);
+        ShellSort.sort(data);
     }
 }
