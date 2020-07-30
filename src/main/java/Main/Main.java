@@ -2,10 +2,7 @@ package Main;
 
 
 import Mine.Linklist.LinkListTwoWay_gz;
-import Mine.sort.BubbleSort;
-import Mine.sort.InsertSort;
-import Mine.sort.SelectSort;
-import Mine.sort.ShellSort;
+import Mine.sort.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -53,6 +50,12 @@ public class Main {
         //BubbleSort.sort(data);
         //SelectSort.sort(data);
         //InsertSort.sort(data);
-        ShellSort.sort(data);
+        //ShellSort.sort(data);
+        //MergeSort.sort(data);
+//        String str = "";
+//        for (int k = 0; k < data.length; k++) {
+//            str = str + data[k] + " ";
+//        }
+//        System.out.println(str);
     }
 }
