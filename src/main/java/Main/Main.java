@@ -52,10 +52,11 @@ public class Main {
         //InsertSort.sort(data);
         //ShellSort.sort(data);
         //MergeSort.sort(data);
-//        String str = "";
-//        for (int k = 0; k < data.length; k++) {
-//            str = str + data[k] + " ";
-//        }
-//        System.out.println(str);
+        QuickSort.sort(data);
+        String str = "";
+        for (int k = 0; k < data.length; k++) {
+            str = str + data[k] + " ";
+        }
+        System.out.println(str);
     }
 }
