@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mine.test.Test1" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-12T14:24:04" hostname="DESKTOP-MSHFOA7" time="0.005">
+  <properties/>
+  <testcase name="main" classname="mine.test.Test1" time="0.005"/>
+  <system-out><![CDATA[before
+after
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
