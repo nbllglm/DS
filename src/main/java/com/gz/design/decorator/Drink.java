@@ -5,7 +5,7 @@ public abstract class Drink {
     private float price = 0;
 
     public String getDescription() {
-        return description;
+        return description + price;
     }
 
     public void setDescription(String description) {
