@@ -15,15 +15,6 @@ public class SingleTonTest {
         SingleTon7.getInstance();
     }
 
-
-    static class task1 implements Runnable {
-        @Override
-        public void run() {
-            System.out.println(SingleTon3.getInstance());
-        }
-    }
-
-
 }
 
 /**
