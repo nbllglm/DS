@@ -74,6 +74,8 @@ class SingleTon3 {
 }
 
 /**
+ * 懒汉式：使用synchronized 同步
+ * 此时线程安全
  * 缺点 效率太低，每次getinstance都要进行同步，方法进行同步效率太低
  * 不推荐
  */
