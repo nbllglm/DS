@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class Sheep implements Cloneable, Serializable {
     private static final long serialVersionUID = -609265977339318357L;
-    private String name;
+    private String name=new String("'");
     private int age;
     private String color;
     private Sheep friend;
